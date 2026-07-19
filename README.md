@@ -29,8 +29,17 @@ Design and build an Active Directory environment that creates and manages multip
     - Back of House - No POS Access required
 ### Environment
 - OS: Windows Server
-- Hypervisor: VMWare Workstation Player
-- Domain Controller (DC) specs: TBD
+- Hypervisor: VMware Workstation Player
+- Domain Controller (DC) specs: 2 vCPU, 4GB RAM, 60GB Storage
 - Client VM(s): Windows 11, specs TBD
 - Network Topology - TBD
 ## 2. Build Log
+### Server Install
+- Date: 19-01-2026
+- Steps taken:
+    - Downloaded Windows Server 2025 ISO from Microsoft
+    - Created a virtual machine in VMware Workstation Player with 60GB of storage, 1 virtual processor with 2 cores and 4GB of RAM
+    - Installed Windows Server 2025 Standard Evaluation (Desktop Experience)
+- Notes: 
+    - VMware was opting for an "easy install" when setting up the virtual machine. I was looking to set this up myself so opted to setup with out the OS and install manually.
+    - Failed to perform initial boot, formatted the drive and attempted to re-install - This fixed the issue and allowed for the installation to continue without a hitch.

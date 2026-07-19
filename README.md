@@ -35,11 +35,26 @@ Design and build an Active Directory environment that creates and manages multip
 - Network Topology - TBD
 ## 2. Build Log
 ### Server Install
-- Date: 19-01-2026
+- Date: 19-07-2026
 - Steps taken:
     - Downloaded Windows Server 2025 ISO from Microsoft
     - Created a virtual machine in VMware Workstation Player with 60GB of storage, 1 virtual processor with 2 cores and 4GB of RAM
     - Installed Windows Server 2025 Standard Evaluation (Desktop Experience)
+- Screenshots:
+    - *Setup Options*
+        ![Setup Options](/screenshots/Setup-Options.png)
+    - *Image Options*
+        ![Image Options](/screenshots/Image-Options.png)
+    - *Pre-Partition*
+        ![Pre-Partition](/screenshots/Pre-Partition.png)
+    - *Post-Partition*
+        ![Post-Partition](/screenshots/Post-Partition.png)
+    - *Installing*
+        ![Installing](/screenshots/Install.png)
+    - *Admin Account Setup*
+        ![Admin Account Setup](/screenshots/Admin-Account-Setup.png)
+    - Desktop POst-Install
+        ![Desktop Post-Install](/screenshots/Desktop-Post-Install.png)
 - Notes: 
     - VMware was opting for an "easy install" when setting up the virtual machine. I was looking to set this up myself so opted to setup with out the OS and install manually.
     - Failed to perform initial boot, formatted the drive and attempted to re-install - This fixed the issue and allowed for the installation to continue without a hitch.

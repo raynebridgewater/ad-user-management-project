@@ -16,7 +16,7 @@ Design and build an Active Directory environment that creates and manages multip
 - Sub-OU: FoH
 - Sub-OU: BoH
 ### Naming Convention
-- Format: (*e.g. jsmith*)
+- Format: *jsmith*
 ### Group Strategy
 - `All-Staff` - Company-Wide, All Users
 - `IT` - Admin accounts

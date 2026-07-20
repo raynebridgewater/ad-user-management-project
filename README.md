@@ -40,6 +40,7 @@ Design and build an Active Directory environment that creates and manages multip
     - Downloaded Windows Server 2025 ISO from Microsoft
     - Created a virtual machine in VMware Workstation Player with 60GB of storage, 1 virtual processor with 2 cores and 4GB of RAM
     - Installed Windows Server 2025 Standard Evaluation (Desktop Experience)
+    - Installed Active Directory Domain Services and DNS Server roles
 - Screenshots:
     - *Setup Options*
         ![Setup Options](/screenshots/Setup-Options.png)
@@ -53,8 +54,21 @@ Design and build an Active Directory environment that creates and manages multip
         ![Installing](/screenshots/Install.png)
     - *Admin Account Setup*
         ![Admin Account Setup](/screenshots/Admin-Account-Setup.png)
-    - Desktop POst-Install
+    - *Desktop Post-Install*
         ![Desktop Post-Install](/screenshots/Desktop-Post-Install.png)
+    - *Adding Active Directory Domain Services Features*
+        ![Adding Active Directory Domain Services Features](/screenshots/Add-AD-DS-Features.png)
+    - *Adding DNS Server Features*
+        ![Adding DNS Server Features](/screenshots/Add-DNS-Features.png)
+    - *No Static IP Warning*
+        ![No Static IP Warning](/screenshots/No-Static-IP-Warning.png)
+    - *Server Role List*
+        ![Server Role List](/screenshots/Server-Role-List.png)
+    - *Server Roles Installed*
+        ![Server Roles Installed](/screenshots/Server-Roles-Installed.png)
+    - *Updated Dashboard*
+        ![Updated Dashboard](/screenshots/Updated-Dashboard.png)    
 - Notes: 
     - VMware was opting for an "easy install" when setting up the virtual machine. I was looking to set this up myself so opted to setup with out the OS and install manually.
     - Failed to perform initial boot, formatted the drive and attempted to re-install - This fixed the issue and allowed for the installation to continue without a hitch.
+    - Dashboard informed me that there was no static IP assigned. This will be added later.

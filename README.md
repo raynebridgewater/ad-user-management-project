@@ -34,13 +34,18 @@ Design and build an Active Directory environment that creates and manages multip
 - Client VM(s): Windows 11, specs TBD
 - Network Topology - TBD
 ## 2. Build Log
+
+### Todo
+- Dashboard informed me that there was no static IP assigned. This will be added later.
+
 ### Server Install
 - Date: 19-07-2026
 - Steps taken:
     - Downloaded Windows Server 2025 ISO from Microsoft
     - Created a virtual machine in VMware Workstation Player with 60GB of storage, 1 virtual processor with 2 cores and 4GB of RAM
     - Installed Windows Server 2025 Standard Evaluation (Desktop Experience)
-    - Installed Active Directory Domain Services and DNS Server roles
+    - Installed Active Directory Domain Services
+    - Installed DNS Server roles
 - Screenshots:
     - *Setup Options*
         ![Setup Options](/screenshots/Setup-Options.png)
@@ -70,5 +75,5 @@ Design and build an Active Directory environment that creates and manages multip
         ![Updated Dashboard](/screenshots/Updated-Dashboard.png)    
 - Notes: 
     - VMware was opting for an "easy install" when setting up the virtual machine. I was looking to set this up myself so opted to setup with out the OS and install manually.
+- Issues -> Fixed
     - Failed to perform initial boot, formatted the drive and attempted to re-install - This fixed the issue and allowed for the installation to continue without a hitch.
-    - Dashboard informed me that there was no static IP assigned. This will be added later.
